@@ -1,0 +1,1 @@
+warning(condition, argument, argument);

@@ -1,0 +1,37 @@
+{
+  "name": "babel-plugin-transform-dev-warning",
+  "version": "0.1.0",
+  "description": "Eliminates development warning from production code",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "istanbul test _mocha",
+    "build": "rm -rf lib && mkdir lib && babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliviertassinari/babel-plugin-transform-dev-warning.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "warning",
+    "dev"
+  ],
+  "author": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliviertassinari/babel-plugin-transform-dev-warning/issues"
+  },
+  "dependencies": {
+    "babel-core": "^6.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.2.5"
+  }
+}
