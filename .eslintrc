@@ -44,7 +44,6 @@ rules:
   yoda: 2
   no-unused-expressions: 2
   no-unused-vars: 2
-  strict: [2, global]
   dot-notation: 2
   dot-location: [2, property]
   consistent-return: 2
@@ -69,6 +68,7 @@ rules:
   object-curly-spacing: [2, never]
 
   # Disabled
+  strict: 0
   no-magic-numbers: 0
   camelcase: 0
   no-underscore-dangle: 0

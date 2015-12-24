@@ -1,5 +1,3 @@
-'use strict';
-
 export default function({template}) {
   const wrapperIfTemplate = template(`
     if (process.env.NODE_ENV !== "production") {
