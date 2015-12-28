@@ -1,4 +1,4 @@
-# babel-plugin-transform-dev-warning
+# Babel Plugin for removing warning call
 
 [![Build Status](https://travis-ci.org/oliviertassinari/babel-plugin-transform-dev-warning.svg?branch=master)](https://travis-ci.org/oliviertassinari/babel-plugin-transform-dev-warning)
 [![npm version](https://img.shields.io/npm/v/babel-plugin-transform-dev-warning.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-transform-dev-warning)
