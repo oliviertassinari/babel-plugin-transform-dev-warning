@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-transform-dev-warning",
   "version": "0.1.0",
-  "description": "Eliminates development warning from production code",
+  "description": "Eliminate development warning from production code",
   "main": "lib/index.js",
   "scripts": {
     "test": "istanbul test _mocha",
