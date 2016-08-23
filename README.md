@@ -1,13 +1,13 @@
-## babel-plugin-transform-dev-warning
+# Babel Plugin for removing warning call
 
 [![Build Status](https://travis-ci.org/oliviertassinari/babel-plugin-transform-dev-warning.svg?branch=master)](https://travis-ci.org/oliviertassinari/babel-plugin-transform-dev-warning)
 [![npm version](https://img.shields.io/npm/v/babel-plugin-transform-dev-warning.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-transform-dev-warning)
 [![npm downloads](https://img.shields.io/npm/dm/babel-plugin-transform-dev-warning.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-transform-dev-warning)
 
-This plugin eliminates development warning from production code.
+This plugin removes development warning from production code.
 It's recommended to be used with https://github.com/r3dm/warning.
 
-### Example
+## Example
 
 **In**
 ```js
@@ -21,13 +21,13 @@ if (process.env.NODE_ENV !== 'production') {
 }
 ```
 
-### Installation
+## Installation
 
 ```sh
 $ npm install --save-dev babel-plugin-transform-dev-warning
 ```
 
-### Usage
+## Usage
 
 #### Via `.babelrc` (Recommended)
 
