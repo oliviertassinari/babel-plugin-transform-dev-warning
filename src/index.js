@@ -3,7 +3,7 @@ export default function({template}) {
     if (process.env.NODE_ENV !== "production") {
       NODE;
     }
-  `);
+  `, { placeholderPattern: /^NODE$/ });
 
   const VISITED_KEY = 'transform-dev-warning-' + Date.now();
 
