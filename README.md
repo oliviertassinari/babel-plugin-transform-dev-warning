@@ -5,7 +5,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/babel-plugin-transform-dev-warning.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-transform-dev-warning)
 
 This plugin removes development warning from production code.
-It's recommended to be used with https://github.com/r3dm/warning.
+It's recommended to be used with https://github.com/BerkeleyTrue/warning.
 
 ## Example
 
